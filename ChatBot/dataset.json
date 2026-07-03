@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract the AWS Region from an ARN string. For example, given 'arn:aws:s3:::my-bucket/my-object', the output should be an empty string, and given 'arn:aws:iam::123456789012:user/Alice', the output should be an empty string. Given 'arn:aws:ec2:us-east-1:123456789012:instance/i-1234567890abcdef0', the output should be 'us-east-1'.",
+    "solution_type": "Regex"
+  },
+  {
+    "task": "Create an IAM policy that allows read-only access to all objects within a specific S3 bucket named 'my-app-data'. The policy should grant the 's3:GetObject' and 's3:ListBucket' actions.",
+    "solution_type": "JSON"
+  },
+  {
+    "task": "Given a list of S3 object keys, filter out any keys that do not end with '.log'. For example, if the input is ['access.log', 'config.json', 'error.log', 'image.png'], the output should be ['access.log', 'error.log'].",
+    "solution_type": "Python"
+  }
+]
